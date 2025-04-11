@@ -8,13 +8,21 @@ speaker embedding, and SpeechT5 of Microsoft as text-to-speech synthesizer with 
 Last model has also been fine-tuned to adapt for Polish speech. Anonymization has been achieved by geometic
 transformations of the speaker embedding in x-vector hyperspace. 
 
+**Model's Scheme**
+
 ![image](https://github.com/user-attachments/assets/f270089d-3223-413f-8a62-b3059cb9d0d0)
 
 ***Anonymization by maximal euclidian distance***
+
+
 ![image](https://github.com/user-attachments/assets/eee3575a-29dd-494b-9ddb-6f53e4324610)
 
 ***Anonymization by averaging three of the most distant vectors from database***
+
+
 ![image](https://github.com/user-attachments/assets/49408a2f-836b-4e27-b759-dc015bb01981)
 
 ***Anonymization by randomly choosing the output vector***
+
+
 ![image](https://github.com/user-attachments/assets/0c0c9904-f2ab-48eb-be22-67d3584c1a28)
